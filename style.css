@@ -21,8 +21,15 @@ li{
 }
 
 .sidebar{
+    display: grid;
     background-color: #c4b5fd;
     grid-row: 1/3;
+    grid-template-rows: 15px;
+    gap: 14px;
+}
+
+.sidelogo{
+    display: flex;
 }
 
 .header{
