@@ -44,11 +44,8 @@ body{
 .sidebar{
     border: 1px solid black;
     grid-area: sidebar;
-    display: flex;
-    flex-direction: column;
+    display: grid;
 }
-
-
 
 /* CONTENT */
 .content{
